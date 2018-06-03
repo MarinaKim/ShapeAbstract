@@ -110,6 +110,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="Library.h" />
+    <ClInclude Include="Shapes.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Square.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Shapes.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Square.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in_circle.txt" />
+    <Text Include="in_ellips.txt" />
+    <Text Include="in_rectangle.txt" />
+    <Text Include="in_square.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
